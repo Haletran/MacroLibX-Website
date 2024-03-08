@@ -41,6 +41,10 @@ git clone https://github.com/seekrs/MacroLibX.git
 cd MacroLibX
 make
 ```
+To make the compilation of Macrolibx faster, you can use the 
+flag `-j` and specify the number of jobs to run simultaneously.
+
+Example : `make -j4`  (does 4 jobs (commands) simultaneously)
 
 ## 🔨 Compilation
 To compile your project with MacroLibX, you just provide the shared library path in your compilation/linking command:
